@@ -31,6 +31,7 @@ function startcountdown() {
            
     
         document.getElementById("gg").style.visibility= "visible"
+        document.getElementById("final").innerHTML= score
          document.getElementById("start_stop").innerHTML = "<p>Rest Game</p>"
               playing = true;
             
